@@ -1,11 +1,8 @@
 import React from 'react'
+import { Outlet } from 'react-router'
 
 const PublicRoute = () => {
-  return (
-    <div>
-      <h1>akns</h1>
-    </div>
-  )
+  return <Outlet/>
 }
 
 export default PublicRoute

@@ -1,10 +1,11 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import { useNavigate } from "react-router";
 
 export default function App() {
 
+    let nevigate = useNavigate();
 
-    
 
   return (
     <div className="min-h-screen bg-[#020617]">

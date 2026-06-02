@@ -1,11 +1,8 @@
 import React from 'react'
+import { Outlet } from 'react-router'
 
 const ProtectedRoute = () => {
-  return (
-    <div>
-      <h1>wdwv</h1>
-    </div>
-  )
+  return <Outlet/>
 }
 
 export default ProtectedRoute

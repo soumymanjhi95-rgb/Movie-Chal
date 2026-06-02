@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, current } from "@reduxjs/toolkit";
 let savedData = localStorage.getItem("registerData");
 let savedUser = localStorage.getItem("currentUser");
 
